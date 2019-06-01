@@ -22,11 +22,11 @@ var func = function() {
 
 
 var config = {
-    user: 'ckfudvwwoqizip',
-    database: 'd4u5u77onjn1rk', 
-    password: 'ddbb57d51ea605c33c22cdd910939b2470abd27c110f7f4d73cd5e1790a52c62',
-    host: 'ec2-54-227-240-7.compute-1.amazonaws.com', 
-    port: 5432, 
+    user: '',
+    database: '', 
+    password: '',
+    host: '', 
+    port: , 
     max: 10, // max number of connection can be open to database
     idleTimeoutMillis: 30000, // how long a client is allowed to remain idle before being closed
   };
