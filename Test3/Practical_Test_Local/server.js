@@ -16,11 +16,11 @@ var pg = require("pg");
 var app = express();
  
 var config = {
-    user: 'SangJunPark',
-    database: 'mysql', 
-    password: '112293170',
-    host: 'localhost', 
-    port: 5432, 
+    user: '',
+    database: '', 
+    password: '',
+    host: '', 
+    port: , 
     max: 10, // max number of connection can be open to database
     idleTimeoutMillis: 30000, // how long a client is allowed to remain idle before being closed
   };
